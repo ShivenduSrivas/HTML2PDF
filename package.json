@@ -1,0 +1,20 @@
+{
+  "name": "html2pdf",
+  "version": "1.0.0",
+  "description": "HTML to PDF Conversion",
+  "main": "index.js",
+  "scripts": {
+    "fmt": "prettier --write *.js"
+  },
+  "keywords": [
+    "HTML2PDF"
+  ],
+  "author": "Shivendu Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.8.5"
+  },
+  "devDependencies": {
+    "prettier": "2.8.7"
+  }
+}
