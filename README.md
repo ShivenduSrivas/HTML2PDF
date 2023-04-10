@@ -1,2 +1,2 @@
 # HTML2PDF
-gcloud functions deploy urltopdf --runtime nodejs18 --trigger-http --allow-unauthenticated  --memory=1024MB
+gcloud functions deploy urltopdf --runtime nodejs16 --trigger-http --allow-unauthenticated  --memory=1024MB
