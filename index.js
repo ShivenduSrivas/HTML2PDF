@@ -28,11 +28,12 @@ async function getBrowserPage() {
             "--no-zygote",
             "--safebrowsing-disable-auto-update",
         ],
+		userDataDir: '/tmp/puppeteer_cache'
     });
     return browser.newPage();
 }
 
-exports.pdfByURL = async (req, res) => {
+exports.urltopdf = async (req, res) => {
     const acceptedMethods = ["GET", "POST"];
     if (acceptedMethods.indexOf(req.method.toUpperCase()) === -1) {
         return res
